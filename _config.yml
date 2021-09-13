@@ -29,9 +29,13 @@ twitter_username: kep_nate
 github_username:  nkepling
 
 # Build settings
-#remote_theme: broccolini/swiss
+remote_theme: broccolini/swiss
 #theme_color: red
 markdown: kramdown
+
+
+
+
 
 
 # Exclude from processing.
