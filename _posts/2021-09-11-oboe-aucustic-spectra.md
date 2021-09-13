@@ -66,7 +66,7 @@ S_{reconstructed} = \sum_{k=1}^{T}\sum_{n=1}^{N}Z_ne^{2\pi i * f_n * t_k} + Z^{*
 
 We used equation (4) and 40 harmonics to reproduce and listen to a one second note. The waveform is shown in figure 3. Upon playing the original audio files and comparing it to the reproduction it was difficult to tell the difference with our untrained ears. Our oboist also found it difficult to tell the difference between the two audio signals. This test qualitatively revealed number of harmonics necessary to reproduce a sound with any psychoacoustical difference.
 
-<img src="{{ site.baseurl }}/porjectAssets/Oboe1Reproduction.png">
+<img src="{{ site.baseurl }}/projectAssets/Oboe1Reproduction.png">
 *Figure 3: A reproduction a one second long B-flat note played by oboe one. The reconstruction was done with a sum of complex exponentials and just 40 harmonics.*
 
 # Power and Convergence
