@@ -20,11 +20,10 @@ For this project we studied the sounds produced by six mystery oboes of unknown,
 # Acoustic Feature Extraction and Analysis
 
 The primary mathematical tool used to investigate the timbre of an instrument is the discrete Fourier transform (DFT). The DFT is mathematical transformation that takes a discrete signal represented in time and decomposes it into temporal frequency space. The DFT and the inverse DFT are shown in the equations (1) and (2). 
-
-\begin{equation}
+$$
 \tag{1}
-    g_k = \sum_{n=0}^{N-1} f_n e^{-i \omega_k t_n} 
-\end{equation}
+g_k = \sum_{n=0}^{N-1} f_n e^{-i \omega_k t_n} 
+$$
 
 \begin{equation}
 \tag{2}
@@ -32,7 +31,7 @@ The primary mathematical tool used to investigate the timbre of an instrument is
 \end{equation}
 
 Where the subscripts n and k represent the functions g and f in their respective spaces. ω is the angular frequency and t is time. 
-![Figure 1](/projectAssets/Oboe1.png)
+<img src="{{ site.baseurl }}/projectAssets/Oboe1.png">
 *Figure 1: An example of the original audio file provided for analysis. Each peak represents a note played from which we can window a one second sample.*  
 
 There are limitations to amount of information that can be extracted using a DFT. The sample rate of the sampler of a discrete signal limits the highest measurable frequency of a discrete signal. This highest measurable frequency is called the Nyquist frequency and it defined in equation (3), where $$f_{Nyquist}$$ is the Nyquist frequency and $$f_S$$ is the sample rate.
