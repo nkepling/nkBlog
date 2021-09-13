@@ -112,12 +112,12 @@ d(p,q) = \sqrt{\sum{n=1}^{N-1}(|p_n|-|q_n|)^2}
 
 This formula takes any two vectors of the same length, like p and q in (8), and calculates $$d$$, their overall distance. The smaller d is, the more similar, on aggregate, the two vectors are. This metric allowed us to identify the most conclusive trend upon comparing two different oboes. Figure 6 shows the comparisons across all six oboes playing each note.
 
-<img src="{{ site.baseurl }}/projectAssets/FullEuclidianDistance.png)">
+<img src="{{ site.baseurl }}/projectAssets/FullEuclidianDistance.png">
 *Figure 6: The Euclidean distance between 15 possible combination of two oboes and notes played.*
 
 The most obvious result that figure 6 reveals is the similarity between oboes four and five. Across all notes, oboes four and five were consistently the most similar based on the Euclidean distance metric. The analysis of the B-flat note provided further evidence suggesting that oboes four and five might be of similar build or material. As described by Gillian, playing a B-flat note requires the entirety of the oboes to play the note. All holes above the ”bell” or bottom section of the oboes are closed when playing this low note. That is to say that analysis of the B-flat Euclidean distances show which two oboes are most similar across the entirety of the oboes body. Figure 7 shows the Euclidean distance data between all oboes playing the B-flat note. The plot shows the distance between oboes four and five being significantly smaller than the others.
 
-<img src="{{ site.baseurl }}/projectAssets/BflatStemPlot.png)">
+<img src="{{ site.baseurl }}/projectAssets/BflatStemPlot.png">
 *Figure 7: The Euclidean distance between 15 combinations of oboes playing the B-flat note.*
 
 
@@ -125,7 +125,7 @@ Analysis of the oboes playing the A note reveals a separate trend. As seen in fi
 
 As for the other oboes, our immediate Euclidean distance analysis did not reveal any trends that allowed us to distinguish between oboes on this metric. Perhaps the information that produces some auditory differences between oboes is lost when we are taking an aggregate metric like the Euclidean distance. The nuance of the sound contained in the autistic spectrum could on average be similar yet contain distinct differences at different harmonics. For that reason we were not able to use Euclidean distance information to the same usefulness in distinguishing between oboes, one, three, and six.
 
-<img src="{{ site.baseurl }}/projectAssets/AStemPlot.png)">
+<img src="{{ site.baseurl }}/projectAssets/AStemPlot.png">
 *Figure 8: The Euclidean distance between 15 combinations of oboes playing the A note.*
 
 # Conclusion
