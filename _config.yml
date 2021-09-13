@@ -23,7 +23,7 @@ email: nathankep@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my blog! I'm an aspiring data scientist with a background in physics and a love of language learning. 
   Here you'll find blog posts ranging from machine learning, mathematics, Chinese language, chess, and much more.
-baseurl: "/nkblog" #the subpath of your site, e.g. /blog
+#baseurl: "/nkblog" #the subpath of your site, e.g. /blog
 url: "https://nkepling.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: kep_nate
 github_username:  nkepling
