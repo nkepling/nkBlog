@@ -50,7 +50,7 @@ After normalization, we employed some statistical calculations to both classify 
 
 The entirety of the spectrum analysis was done with MATLAB code. In MATLAB we windowed each audio recording to extract one second snippets from each oboe playing each note. The one second clips were extracted from the middle of the signal to capture the sound waves in its steady state and avoid differences in the spectrum caused any transient phenomena. From there we wrote a function to take the DFT of each of the windowed signal. We wrote a separate function, to locate the frequencies of the measured harmonics, calculate their complex amplitudes and record the location of each harmonic. A Fourier transformed B-flat note is shown in figure 2.
 
-![Figure 2](/projectAssets/TwoSidedBflat.png)
+<img src="{{ site.baseurl }}/projectAssets/TwoSidedBflat.png">
 *Figure 2: The Fourier transform of the a B-flat note played by oboe one. This is an absolute value plot of the DFT coefficients plotted against the frequency.*
 
 An attribute of the acoustic spectra that became immediately apparent was that the strongest frequency component of the signal was not the fundamental frequency as we might of expected. Instead, across all oboes and notes, the strongest harmonics were around the fifth harmonic. In figure 2 it is clear that there are two groups of peaks that mirror each other. It turns out these higher frequencies are part of the spectrum but do not significantly contribute to the to audible sound of the instrument.
@@ -66,7 +66,7 @@ S_{reconstructed} = \sum_{k=1}^{T}\sum_{n=1}^{N}Z_ne^{2\pi i * f_n * t_k} + Z^{*
 
 We used equation (4) and 40 harmonics to reproduce and listen to a one second note. The waveform is shown in figure 3. Upon playing the original audio files and comparing it to the reproduction it was difficult to tell the difference with our untrained ears. Our oboist also found it difficult to tell the difference between the two audio signals. This test qualitatively revealed number of harmonics necessary to reproduce a sound with any psychoacoustical difference.
 
-![Figure 3](/projectAssets/Oboe1Reproduction.png)
+<img src="{{ site.baseurl }}Oboe1Reproduction.png">
 *Figure 3: A reproduction a one second long B-flat note played by oboe one. The reconstruction was done with a sum of complex exponentials and just 40 harmonics.*
 
 # Power and Convergence
@@ -80,7 +80,7 @@ P = \sum_{n=1}^{N} |{Z_n}|^2
 
 or any subsequent analysis using the data acquired by the DFT, this test provides validation that any number of harmonics above ten is sufficient for analysis. In terms of the amount of energy in the system, the benchmark of 50 harmonics used in majority of our analysis is more than adequate.
 
-![Figure 4](/projectAssets/Convergence.png)
+<img src="{{ site.baseurl }}/projectAssets/Convergence.png">
 *Figure 4:  The total power in a one second long B-flat note played by oboe one for a range of harmonics. After around the tenth harmonic the total power added by each additional harmonic is insignificant.*
 
 # Spectral Centroid and Spread
@@ -98,7 +98,7 @@ Centroid = \frac{\sum_{n=1}^{N} |{Z_n}| * f_n}{\sum_{n=1}^{N} |{Z_n}|}
 Spread = \frac{\sqrt{\sum_{n=1}^{N} (f_n - Centroid)^2|{Z_n}|}}{\sum_{n=1}^{N} |{Z_n}|}
 \end{equation}
 
-![Figure 5](/projectAssets/HarmonicCentroid.png)
+<img src="{{ site.baseurl }}/projectAssets/HarmonicCentroid.png">
 *Figure 5: The harmonic centroid and spread for all six oboes playing each note.*
 
 # Euclidean Distance Analysis
@@ -112,12 +112,12 @@ d(p,q) = \sqrt{\sum{n=1}^{N-1}(|p_n|-|q_n|)^2}
 
 This formula takes any two vectors of the same length, like p and q in (8), and calculates $$d$$, their overall distance. The smaller d is, the more similar, on aggregate, the two vectors are. This metric allowed us to identify the most conclusive trend upon comparing two different oboes. Figure 6 shows the comparisons across all six oboes playing each note.
 
-![Figure 6](/projectAssets/FullEuclidianDistance.png)
+<img src="{{ site.baseurl }}/projectAssets/FullEuclidianDistance.png)">
 *Figure 6: The Euclidean distance between 15 possible combination of two oboes and notes played.*
 
 The most obvious result that figure 6 reveals is the similarity between oboes four and five. Across all notes, oboes four and five were consistently the most similar based on the Euclidean distance metric. The analysis of the B-flat note provided further evidence suggesting that oboes four and five might be of similar build or material. As described by Gillian, playing a B-flat note requires the entirety of the oboes to play the note. All holes above the ”bell” or bottom section of the oboes are closed when playing this low note. That is to say that analysis of the B-flat Euclidean distances show which two oboes are most similar across the entirety of the oboes body. Figure 7 shows the Euclidean distance data between all oboes playing the B-flat note. The plot shows the distance between oboes four and five being significantly smaller than the others.
 
-![Figure 7](/projectAssets/BflatStemPlot.png)
+<img src="{{ site.baseurl }}/projectAssets/BflatStemPlot.png)">
 *Figure 7: The Euclidean distance between 15 combinations of oboes playing the B-flat note.*
 
 
@@ -125,7 +125,7 @@ Analysis of the oboes playing the A note reveals a separate trend. As seen in fi
 
 As for the other oboes, our immediate Euclidean distance analysis did not reveal any trends that allowed us to distinguish between oboes on this metric. Perhaps the information that produces some auditory differences between oboes is lost when we are taking an aggregate metric like the Euclidean distance. The nuance of the sound contained in the autistic spectrum could on average be similar yet contain distinct differences at different harmonics. For that reason we were not able to use Euclidean distance information to the same usefulness in distinguishing between oboes, one, three, and six.
 
-![Figure 8](/projectAssets/AStemPlot.png)
+<img src="{{ site.baseurl }}/projectAssets/AStemPlot.png)">
 *Figure 8: The Euclidean distance between 15 combinations of oboes playing the A note.*
 
 # Conclusion
