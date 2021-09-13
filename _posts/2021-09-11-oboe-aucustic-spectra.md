@@ -23,11 +23,10 @@ The primary mathematical tool used to investigate the timbre of an instrument is
 
 \begin{equation}
 \tag{1}
-\[g_k = \sum_{n=0}^{N-1} f_n e^{-i \omega_k t_n\]
+    g_k = \sum_{n=0}^{N-1} f_n e^{-i \omega_k t_n}
 \end{equation}
 
 \begin{equation}
-
     f_k = \frac{1}{N} \sum_{n=0}^{N-1} g_k e^{i \omega_k t_n} 
 \end{equation}
 
