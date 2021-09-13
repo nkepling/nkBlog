@@ -20,10 +20,14 @@ For this project we studied the sounds produced by six mystery oboes of unknown,
 
 The primary mathematical tool used to investigate the timbre of an instrument is the discrete Fourier transform (DFT). The DFT is mathematical transformation that takes a discrete signal represented in time and decomposes it into temporal frequency space. The DFT and the inverse DFT are shown in the equations (1) and (2). 
 
-\[g_k = \sum_{n=0}^{N-1} f_n e^{-i \omega_k t_n\]
 
 \begin{equation}
-\tag{2}
+\tag{1}
+\[g_k = \sum_{n=0}^{N-1} f_n e^{-i \omega_k t_n\]
+\end{equation}
+
+\begin{equation}
+
     f_k = \frac{1}{N} \sum_{n=0}^{N-1} g_k e^{i \omega_k t_n} 
 \end{equation}
 
