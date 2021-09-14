@@ -3,7 +3,7 @@ layout: page
 title: Resume
 ---
 
-# A pdf of my resume can be downloaded [here](/ResumeNathanielKeplinger.pdf). 
+# A pdf of my resume can be downloaded [here](/DataScienceResumeNathanielKeplinger.pdf). 
 # Here's my [LinkedIn](https://www.linkedin.com/in/nathaniel-keplinger/) 
 
 
