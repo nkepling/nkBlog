@@ -7,9 +7,9 @@ permalink: /about/
 
 ![My picture](/mypic.jpg)
 
-My name is Nathaniel Keplinger, and I am currently pursuing a Master's degree in data science from the Colorado School of Mines. I graduated in May 2021 from Trinity University with a Bachelor's of science with majors in Physics and Chinese language. I believe in the power of sound, ethically sourced data to bring positive change. As all facets of our lives become increasingly digitally connected, the opportunity to use this abundance of new data is exciting and empowering. Data that enables smarter city infrusture, more efficient energy grids, revolutionary medicine, and profound social insights are just around the corner; I want to be part of a **smarter, data-driven** world.
+My name is Nathaniel Keplinger, and I am currently pursuing a Master's degree in data science from the Colorado School of Mines. I graduated in May 2021 from Trinity University with a Bachelor's of science with majors in Physics and Chinese language. I believe in the power of sound, ethically sourced data to bring positive change. As all facets of our lives become increasingly digitally connected, the opportunity to use this abundance of new data is exciting and empowering. Data that enables smarter city infrastucture, more efficient energy grids, revolutionary medicine, and profound social insights are just around the corner; I want to be part of a **smarter, data-driven** world.
 
-Outside of school work, I enjoy playing chess, going on long walks, enjoying the outdoors, and brushing upon on my Mandarin. 
+Outside of school work, I enjoy playing chess, going on long walks, enjoying the outdoors, and brushing up on my Mandarin. 
     
 I currently live in Golden, Colorado USA. 
 
