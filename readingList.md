@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "My Reading List"
+title: "My Reading Log"
 category_name: reading
 ---
 
