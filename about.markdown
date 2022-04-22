@@ -13,6 +13,8 @@ Outside of school work, I enjoy playing chess, going on long walks, enjoying the
     
 I currently live in Golden, Colorado USA. 
 
-Email: nathankep@gmail.com 
+Email: nathankep {at} gmail dot com 
 
-如果你会说流利的中文，请联系我! 我要提高我的中文的水平。我二零一九年去国哈尔滨学习中文。虽然我的访问中国的经历对我有很深刻的影响，我在慢慢遗忘我的中文。在下个功课我希望继续用我的中文除了计算机科学的功课。
+如果你的中文很流利，欢迎随时联系我。 我希望能不断提高我的中文水平。我曾经在2019年在哈尔滨学习过中文。虽这段访问中国的经历给我留下了深刻的印象 , 不过离开中国后， 我的中文能力在逐渐退化。。 在下一阶段,我不仅想学好计算机课程，我还想努力提高我的中文水平。
+
+路漫漫其修远兮，吾将上下而求索。
